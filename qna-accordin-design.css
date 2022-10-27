@@ -1,0 +1,63 @@
+/* styling of the accordion */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Merriweather:wght@300&family=Splash&display=swap');
+
+
+.accordion {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 66, 66);
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+.question-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2 {
+    font-style: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    color: rgb(249, 249, 249);
+}
+
+
+.hidden-box {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    display: none;
+}
+
+.hidden-box p {
+    font-size: 25px;    
+    margin-top: 1rem;
+}
+
+.hidden-box .gap {
+    height: 0.1rem;
+    width: 120%;
+    background-color: black;
+    margin-left: 0;
+}
+
+
+.active .hidden-box {
+    display: block;
+    margin-top: 2rem;
+}
+

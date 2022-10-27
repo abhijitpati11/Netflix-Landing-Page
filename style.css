@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, 
+                BlinkMacSystemFont, 'Segoe UI', 
+                Roboto, Oxygen, Ubuntu, Cantarell, 
+                'Open Sans', 'Helvetica Neue', 
+                sans-serif;
+}
+body {
+    background-color: black;
+}
+
+.logo {
+    height: 5rem;
+    background: none;
+}
+
+/* -----------Navigation bar design --------------- */
+
+.main-container {
+    background-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0.52), 
+        rgba(7, 5, 7, 0.73)),
+        url(pictures/background.jpg);
+    
+    height: 93vh;
+    /* padding-bottom: 7rem; */
+}
+
+nav {
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 3.3rem;
+    padding-left: 2rem;
+}
+nav .button .sign-in{
+    height: 2.2rem;
+    width: 6rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 10%;
+    margin-top: 9px;
+    margin-right: 6rem;
+}
+
+nav .button .lang {
+    height: 2.2rem;
+    width: 6rem;
+    color: white;
+    margin-right: 1.4rem;
+    text-align: center;
+    font-size: 17px;
+    border: 1.2px solid white;
+    background: none;
+}
+
+nav .button .lang option {
+    background: grey;
+}
+
+
+/* ------------body content design --------------- */
+
+.content-box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.content h1 {
+    max-width: 600px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.content h2 {
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 0.9rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.mail-box {
+    width: 30rem;
+}
+.input .mail-box {
+    height: 4rem;
+    border: none;
+    padding-left: 1rem;
+    font-size: 16px;
+}
+.get-started button{
+    height: 4rem;
+    width: 13rem;
+    background-color: red;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+
+/*  --------hover ffects ---------- */
+.button .sign-in:hover {
+    cursor: pointer;
+}
+.input .get-started button:hover {
+    cursor: pointer;
+    background-color: rgb(171, 0, 0);
+}
+
+
+
+

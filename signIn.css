@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, 
+        rgba(10, 10, 11, 0.52), 
+        rgba(14, 12, 14, 0.73)),
+        url(pictures/background.jpg);
+        overflow-x: hidden;
+}
+
+
+/* ------------ login box design --------- */
+
+.container {
+    min-height: 140vh;
+}
+
+.logo {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    position: absolute;
+}
+
+form {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.4rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px;
+    margin-top: 6rem;
+    width: 28rem;
+}
+
+form h1 {
+    margin-bottom: 28px;
+}
+
+.form-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border: none;
+    border-radius: 0.4rem;
+    outline: none;
+    color: white;
+    padding: 16px 20px 0;
+    
+}
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: #8c8c8c;
+    pointer-events: none;
+    transition: 200ms ease-in-out transform,
+                200ms ease-in-out font-size;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+    transform: translateY(-1.25rem);
+    font-size: 0.8rem;
+}
+
+form button {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: red;
+    color:white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 24px 0 12px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 5rem;
+}
+.remember a {
+    text-decoration: none;
+    color: white;
+}
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    color: #8c8c8c;
+    margin-bottom: 1rem;
+}
+.info p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.info p a:hover{
+    text-decoration: underline;
+}
+
+.captcha a {
+    text-decoration: none;
+    color: blue;
+}
+.captcha a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* --------footer design---------- */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: -40vh;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 225px;
+    color: #757575;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .top {
+    margin-bottom: 30px;
+}
+
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .links a {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 16px;
+    
+}

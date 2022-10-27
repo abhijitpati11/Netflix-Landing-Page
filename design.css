@@ -1,0 +1,144 @@
+
+/*  --------------------- desing of the advertisement bar------------ */
+.text-content {
+    /* height: 30rem; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    /* padding: 8rem 10rem; */
+}
+
+.text-content .text-box {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* text-align: center; */
+}
+
+.text-content .text-box h1 {
+    font-size: 50px;
+    text-align: left;
+    
+}
+.text-content .text-box h3 {
+    font-size: 19.5px;
+    font-weight: 10;
+}
+.text-content .text-box {
+    text-align: left;
+}
+
+
+/* ------designing the border -------- */
+.border {
+    height: 0.6rem;
+    background-color: rgb(53, 52, 52);
+}
+
+
+
+/* ---------QnA designing */
+
+.qna {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qna h1 {
+    font-size: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.questions {
+    color: white;
+    font-size: 35px;
+    height: 4rem;
+    width: 60%;
+    background-color: rgb(67, 63, 63);
+    padding: 12px 17px 8px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+.questions:hover {
+    cursor: pointer;
+}
+.answers {
+    color: white;
+    font-size: 32px;
+    height: relative;
+    width: 57%;
+    background-color: rgb(67, 63, 63);
+    padding: 12px 17px 8px 22px;
+    text-align: left;
+    overflow: hidden;
+    display: none;
+}
+.cross {
+    font-size: 3.5rem;
+    display: none;
+}
+.plus {
+    font-size: 4rem;
+}
+
+
+.under-content {
+    margin-top: 4rem;
+}
+
+
+.under-input {
+    margin-bottom: 6rem;
+}
+
+
+
+
+/* footer design */
+
+footer {
+    
+    left: 0;
+    bottom: -40vh;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 290px;
+    color: #757575;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .top {
+    margin-bottom: 30px;
+}
+
+footer .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .links a {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 16px;
+    
+}
+
+
+
